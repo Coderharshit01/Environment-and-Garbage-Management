@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+/* Navbar CSS */
+.navbar{
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(15px) !important;
+}
+.navbar-brand{
+    width: 5.5rem;
+}
+.navbar-toggler-icon{
+    filter:saturate(1) sepia(1) hue-rotate(180deg) invert(1) !important ;
+}
+.nav-item{
+    padding: 2px 12px;
+}
+.nav-link{
+    color: #8bc4bf !important;
+    font-size : 1.25rem !important;
+    
+}
+.nav-link:hover{
+    transform: translateX(5px) !important;
+    color: white !important;
+    opacity: 0.67;
+}
+.contactbtn{
+    width: 10rem;
+    height: 3.5rem;
+    border:1px solid green !important;
+}
+
+
+/* Hero section CSS */
+
+.herosec{
+    background: #181717;
+    min-height: 90vh;
+}
+.herosec h1{
+    font-size: 45px;
+}
+.btns a{
+    width: 8rem;
+}
+
+/* SERVICES */
+.crd{
+min-height: 20vh;
+}
+
+.crd:hover{
+    transform: translateY(-15px);
+    }
+
+.services h2{
+    font-size: 43px;
+    margin: 15px 16px;
+}
+.crd h3{
+    font-size: 25px;
+}
+.services .par{
+    font-size: 19px;
+}
+/* BANNER FORM */
+
+.bannerform button[type="submit"]{
+    color: #fff;
+    background: linear-gradient(to right , #0ACEFE,#2699FB);
+}
+.contactus{
+    max-width: 40%;
+}
+
+/* FOOTER */
+.footer li a{
+    text-decoration: none;  
+    color: #84ced1 ;
+     font-size: 21px;
+}
+.footer li a:hover{
+    opacity: 0.75;
+}
+.footer .row .col-3 h4{
+    color: white !important;
+    font-size: 22px;
+    margin-bottom: 7px;
+}

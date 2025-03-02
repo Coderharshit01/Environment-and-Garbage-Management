@@ -1,0 +1,41 @@
+/* FOR SMALLE DEVICES */
+
+@media only screen and (max-width:775px){
+    body{
+        overflow-x: hidden;
+    }
+    .contactbtn{
+        width: 100% !important;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .herosec{
+        min-height: 80vh;
+    }
+    .navbar{
+        position: sticky !important;
+        top: 0;
+        backdrop-filter: blur(15px);
+    }
+    .herosec h1{
+        font-size: 31px !important;
+    }
+.contactus{
+    max-width: 90%;
+}
+.footer{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.footer li a{
+    text-decoration: none;  
+    color: #84ced1 ;
+     font-size: 16px;
+}
+.footer .row .col-3 h4{
+    color: white !important;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+}
